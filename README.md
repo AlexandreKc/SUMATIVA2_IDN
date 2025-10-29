@@ -27,3 +27,20 @@ Repositorio para evaluación N°2 Inteligencia de negocios.
 **.\venv\Scripts\Activate**  
 **pip install -r requirements.txt**  
 **Proceder a ver los notebooks - No olvidar subir el archivo "btcusd_1-min-data.csv" a 01_raw**
+
+
+## **Dependencias**
+**Se utilizo Python 3.13.9**  
+**Manipulación de datos**  
+*pandas>=2.0.0*  
+*pyyaml>=6.0.0*  
+  
+**Archivos adicionales (Excel y Parquet)**  
+*openpyxl>=3.1.0*  
+*pyarrow>=15.0.0*  
+
+**Entorno Notebook**  
+*jupyter>=1.0.0*  
+*notebook>=7.0.0*  
+*ipykernel>=6.29.0*  
+
