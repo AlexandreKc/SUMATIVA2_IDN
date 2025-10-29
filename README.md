@@ -6,7 +6,7 @@ Repositorio para evaluación N°2 Inteligencia de negocios.
 **DATASET**  https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data  
 
 ## **Contexto del dataset** 
-*Este dataset contiene información de la criptomoneda bitcoin, la información es desde el 01/01/2012 hasta mas o menos el 09/09/2025 (Aqui lo descargué, este dataset se actualiza a diario al parecer), entre las variables que podemos encontrar es la fecha en formato UNIX "Timestamp", valor de apertura "Open", el valor más alto "High", el valor mas bajo "Low", el valor de cierre "Close", Volumen transaccionado "Volume". Este dataset se maneja en ventanas de 1 segundo por lo que tiene la información completa, la idea es inicialmente transformarlo a dia para reducir la cantidad de valores a trabajar.*
+*Este dataset contiene información de la criptomoneda bitcoin, la información es desde el 01/01/2012 hasta mas o menos el 09/09/2025 (Aqui lo descargué, este dataset se actualiza a diario al parecer), entre las variables que podemos encontrar es la fecha en formato UNIX "Timestamp", valor de apertura "Open", el valor más alto "High", el valor mas bajo "Low", el valor de cierre "Close", Volumen transaccionado "Volume". Este dataset se maneja en ventanas de 1 minuto por lo que tiene la información completa, la idea es inicialmente transformarlo a dia para reducir la cantidad de valores a trabajar.*
 ## **Variables**
 ***Timestamp** - UNIX / segundos*  
 ***Open** - apertura*  
@@ -34,6 +34,11 @@ Repositorio para evaluación N°2 Inteligencia de negocios.
 **Manipulación de datos**  
 *pandas>=2.0.0*  
 *pyyaml>=6.0.0*  
+*matplotlib==3.10.7*  
+*scikit-learn==1.7.2*  
+*seaborn==0.13.2*  
+*statsmodels==0.14.5*  
+
   
 **Archivos adicionales (Excel y Parquet)**  
 *openpyxl>=3.1.0*  
