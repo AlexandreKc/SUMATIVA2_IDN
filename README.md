@@ -20,3 +20,5 @@ Repositorio para evaluación N°2 Inteligencia de negocios.
 
 ## **Hipotesis a utilizar** 
 *Las caídas en el precio mínimo (Low) tienen un efecto más fuerte sobre el precio de cierre que los incrementos en el precio máximo (High), lo que sugiere un sesgo bajista en la dinámica de mercado de Bitcoin.*
+
+## **===================================================================================================================** 
