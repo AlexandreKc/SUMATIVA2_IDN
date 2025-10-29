@@ -26,4 +26,4 @@ Repositorio para evaluación N°2 Inteligencia de negocios.
 **python -m venv venv**  
 **.\venv\Scripts\Activate**  
 **pip install -r requirements.txt**  
-**Proceder a ver los notebooks - No olvidar subir el archivo "btcusd_1-min-data.csv**
+**Proceder a ver los notebooks - No olvidar subir el archivo "btcusd_1-min-data.csv" a 01_raw**
