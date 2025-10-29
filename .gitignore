@@ -1,0 +1,50 @@
+# ==========================
+# 🧠 SUMATIA2_IDN - Gitignore
+# ==========================
+
+# 🧩 Entorno virtual
+venv/
+.env/
+.env.*
+
+# 🧪 Datos y salidas
+data/**/*.csv
+data/**/*.parquet
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.json
+data/**/*.zip
+data/**/*.pkl
+data/**/*.feather
+
+# Ignorar todas las carpetas de data si prefieres
+# data/
+
+# 📚 Archivos temporales y caché
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.log
+
+# 🧮 Notebooks con checkpoints
+.ipynb_checkpoints/
+
+# 📦 Configs o backups locales
+*.bak
+*.swp
+*.swo
+
+# 💻 Configuración de VS Code / Jupyter
+.vscode/
+*.code-workspace
+*.jupyter/
+
+# 📄 Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# 🐋 Si usas Docker luego
+*.tar
+*.img
